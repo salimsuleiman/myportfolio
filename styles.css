@@ -175,19 +175,20 @@ nav a {
    .right  {
     margin-left: 0px;
    }
+   
    .container {
     padding:  50px;
    }
    nav ul li {
-    margin-right: 5px;
+    margin-right: 2px;
     
 }
 nav a {
    
-    font-size: 15px;
+    font-size: 13px;
 }
 .social a {
-    font-size: 26px;
+    font-size: 23px;
     margin-right: 13px;
 }
 .social {
