@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rajdhani', sans-serif;
+    background-color: #fff;
+}
+
+.container{
+    padding:  30px 80px;
+    width: 100%;
+}
+a {
+    font-family: 500;
+    
+}
+.me {
+    width: 100%;
+    
+    margin-top: 30px;
+    /* text-align: center; */
+    display: flex;
+    padding-bottom: 50px;
+
+    /* border-bottom: 1px solid #ccc; */
+}
+
+.me h1 {
+    color: rgb(162, 0, 255);
+    font-size: 53px;
+    text-align: left;
+}
+
+.left {
+    text-align: left;
+    width: 55%;
+  
+}
+
+.right {
+    margin-left: 50px;
+    width: 40%;
+      /* padding-left: 30px; */
+    /* border-left: 2px solid #eee; */
+    
+}
+.right img {
+    width: 26rem;
+    height: 26rem;
+    border-radius: 10px;
+    border: 1px solid #fbfbfb;
+}
+
+
+/* intro */
+.intro {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 19px;
+    text-align: left;
+    font-weight: 600;
+    color: #333;
+}
+
+
+/* social */
+.social {
+    margin-top: 30px;
+ 
+     text-align: left;
+}
+.social a {
+    font-size: 30px;
+    margin-right: 13px;
+}
+
+
+
+
+
+/*  .projects */
+/* .projects {
+    margin-top: 30px;
+}
+
+.projects .title {
+    text-align: center;
+}
+
+
+.list:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.project {
+
+    background-color: #cff;
+    height: 30rem;
+    float: left;
+  width: 23%;
+  margin-right: 20px;
+    position: relative;
+    border-radius: 0.5rem;
+   cursor: pointer;
+}
+.project:hover {
+    box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem 
+}
+.project img {
+    width: 100%;
+    height: 100%;
+}
+
+.des {
+    font-size: 15px;
+} */
+
+
+
+.contact {
+    text-align: left;
+    margin-top: 30px;
+}
+
+.nav li{
+    font-size: 19px;
+}
+
+a {
+    font-weight: 500;
+    text-decoration: none;
+}
+
+
+input {
+    padding: 5px;
+    width: 50%;
+}
+
+
+nav {
+    /* border-bottom: 1px solid #fbfbfb; */
+    padding: 7px 0;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+nav ul li {
+    margin-right: 10px;
+    
+}
+nav a {
+    /* color: #1ad609; */
+    font-size: 17px;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+
+@media (max-width: 500px) {
+   .me {
+    display: block;
+   }
+   .left, .right {
+    width: 100%;
+   }
+   .right  {
+    margin-left: 0px;
+   }
+   .container {
+    padding:  50px;
+   }
+   nav ul li {
+    margin-right: 5px;
+    
+}
+nav a {
+   
+    font-size: 15px;
+}
+.social a {
+    font-size: 26px;
+    margin-right: 13px;
+}
+.social {
+    margin-bottom: 30px;
+ 
+
+}
+.right img {
+    width: 24rem;
+    height: 24rem;
+    border-radius: 10px;
+    border: 1px solid #fbfbfb;
+}
+}
