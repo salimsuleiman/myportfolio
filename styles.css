@@ -132,6 +132,10 @@ nav a:hover {
 
 
 @media (max-width: 900px) {
+.container {
+padding: 30 60px;
+
+}
    .me {
     display: block;
    }
