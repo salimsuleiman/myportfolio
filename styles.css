@@ -32,7 +32,7 @@ nav {
   border-bottom: 1px solid #fbfbfb;
   padding: 25px 0px;
   /* padding-bottom: 20px; */
-  /* padding-left: 20px; */
+  padding-left: 10px;
   background-color: #fff;
   background-color: rgba(255, 255, 255, 0.85);
   backdrop-filter: blur(12px);
@@ -176,19 +176,35 @@ nav a:hover {
   justify-content: space-between;
 }
 
-.portfolio .btn, .sc {
+
+
+
+
+/* CSS */
+.button-10 {
   margin: 10px 0px;
-  background: rgb(0, 149, 246);
-  padding: 5px 9px;
-  border: none;
-  box-sizing: border-box;
-  color: #fff;
-  cursor: pointer;
-  font-weight: bold;
+  padding: 4px 8px;
+
+  font-family: inherit;
   text-align: center;
-  font-size: 15px;
+  padding: 6px;
+
+  border-radius: 6px;
+  border: none;
+  color: #fff;
   width: 49%;
-  border-radius: 3px;
+  cursor: pointer;
+  background: linear-gradient(180deg, #0095f6 0%, #367AF6 100%);
+   background-origin: border-box;
+  box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+  user-select: none;
+
+ 
+}
+
+.button-10:focus {
+  box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+  outline: 0;
 }
 
 .sc {
@@ -273,6 +289,30 @@ nav a:hover {
   margin: 20px 0;
   font-weight: 500;
   font-size: 16px;
+}
+
+/* quotes */
+.quotes{
+  text-align: center;
+  margin: auto;
+  width: 50%;
+}
+
+.quote {
+  margin: 20px;
+}
+blockquote {
+  font-size: 32px;
+  font-weight: 500;
+}
+blockquote::before {
+  content: open-quote;
+}
+blockquote::after {
+  content: close-quote;
+}
+blockquote {
+  quotes: "“" "”" "‘" "’";
 }
 
 @media (min-width: 1200px) {
